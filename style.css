@@ -1,0 +1,91 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 80vh;
+  background-color: #dddcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxLogin {
+  width: 350px;
+  height: 480px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* -- LOGO -- */
+
+.boxLogin .containerLogo {
+  height: 43%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxLogin .containerLogo .cercle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(255, 165, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxLogin .containerLogo .cercle img {
+  width: 100px;
+}
+
+/* --  INPUTS & BUTTON  -- */
+
+.boxLogin .containerInputs {
+  height: 57%;
+}
+
+.boxLogin form input {
+  display: block;
+  margin: 20px auto;
+  outline: 0;
+  background-color: #f2f2f2;
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.boxLogin form button {
+  display: block;
+  margin: 20px auto;
+  display: block;
+  outline: 0;
+  background-color: rgb(250,165,9);
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.boxLogin form button:hover {
+  background-color: rgb(204, 137, 12);
+}
+
+.boxLogin .txtFin {
+    text-align: center;
+}
+.boxLogin .txtFin a{
+    text-decoration: none;
+    color: salmon;
+}
+.boxLogin .txtFin a:hover{
+  text-decoration: none;
+  color: rgba(250, 128, 114, 0.568);
+}
